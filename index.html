@@ -1,84 +1,1110 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet">
+        <title>Bootstrap Portfolio</title>
+    </head>
+    <body>
+        <!-- headerNav ===========-->
+        <header>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                    <ul class="m-0 list-unstyled">
+                        <li>
+                            <a href="#" class="cvBtn text-decoration-none
+                 ">Download CV</a>
+                        </li>
+                    </ul>
 
-    <title>Tic Tac Teo Game</title>
-</head>
+                </div>
+            </nav>
+            <div class="theBanner">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 col-md-6 col-12">
+                            <div class="leftBanner">
+                                <div class="textSide">
+                                    <h3>i'm</h3>
+                                    <h2>ahmed</h2>
+                                    <h2>mohamed</h2>
+                                    <p>A passionate frontend developer and
+                                        senior
+                                        web developer.</p>
+                                </div>
+                                <div class="socialSide">
+                                    <a href="#">
+                                        <img
+                                            src="images/social-icon/facebook.svg"
+                                            alt>
+                                    </a>
+                                    <a href="#">
+                                        <img
+                                            src="images/social-icon/linkedin.svg"
+                                            alt>
+                                    </a>
+                                    <a href="#">
+                                        <img
+                                            src="images/social-icon/twitter-icon.svg"
+                                            alt>
+                                    </a>
+                                    <a href="#">
+                                        <img
+                                            src="images/social-icon/youtube.svg"
+                                            alt>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 col-12">
+                            <div class="rightBanner">
+                                <img src="images/top-right-img.png"
+                                    class="w-100" alt>
 
-<body>
-    <main>
-        <div class="Content">
-            <!-- =======start header====== -->
-            <div id="header">
-                <h3 class="info">
-                    X turn
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </header>
+        <!-- headerNav ===========-->
+        <section class="mainMenu mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="accordion" id="accordionExample">
+                            <!-- ==============About================ -->
+                            <div class="accordion-item aboutMenu">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#aboutMenu"
+                                        aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        <span class="accordIcon">
+                                            <i
+                                                class="fa-regular fa-address-card"></i>
+                                        </span>
+                                        <span class="accordText">
+                                            About Me
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div id="aboutMenu"
+                                    class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="row align-items-top">
+                                            <div class="col-md-6 col-12">
+                                                <div class="aboutLeft">
+                                                    <div
+                                                        class="theImg w-100 position-relative">
+                                                        <img
+                                                            src="images/about-img.jpg"
+                                                            class="w-50" alt>
+                                                        <div class="info">
+                                                            <div>
+                                                                <p>Name</p>
+                                                                <h5>Ahmed
+                                                                    Mohamed</h5>
+                                                            </div>
+                                                            <div>
+                                                                <p>Birthday</p>
+                                                                <h5>Appril
+                                                                    22,1990</h5>
+                                                            </div>
+                                                            <div>
+                                                                <p>Mail</p>
+                                                                <h5>ahmedelabrass2030@
+                                                                    gmail.com</h5>
+                                                            </div>
+                                                            <div>
+                                                                <p>phone</p>
+                                                                <h5>+20
+                                                                    1208448553</h5>
+                                                            </div>
+                                                            <div>
+                                                                <p>Address</p>
+                                                                <h5>Elshami
+                                                                    Street</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-12">
+                                                <div class="aboutRight">
+                                                    <h2>About Me</h2>
+                                                    <h1>frontend developer & web
+                                                        developer</h1>
+                                                    <p>Lorem, ipsum dolor sit
+                                                        amet consectetur
+                                                        adipisicing elit.
+                                                        Officia minima provident
+                                                        expedita laudantium.
+                                                        Omnis ullam nisi iure
+                                                        dolorem consectetur
+                                                        voluptas fugit aut sit
+                                                        exercitationem totam!
+                                                        Asperiores voluptatem
+                                                        ducimus aut cumque?</p>
+                                                    <a href="#" class="cvBtn">download
+                                                        cv</a>
+                                                </div>
+                                            </div>
+                                        </div>
 
-            <!-- =======end header====== -->
-            <!-- =======start Shape====== -->
-            <div id="shape">
-                <!-- ===Row1=== -->
-                <div class="square" value="1" style="border-top: none;
-                border-left: none;">
-                    <h4 class="squareContent"></h4>
-                </div>
-                <div class="square" value="2" style="border-top: none;
-                border-left: none;">
-                    <h4 class="squareContent"></h4>
-                </div>
-                <div class="square" value="3" style="border-top: none;
-                border-left: none;border-right: none;">
-                    <h4 class="squareContent"></h4>
-                </div>
-                <!-- ===Row2=== -->
-                <div class="square" value="4" style="border-top: none;
-                border-left: none;">
-                    <h4 class="squareContent"></h4>
-                </div>
-                <div class="square" value="5" style="border-top: none;
-                border-left: none;">
-                    <h4 class="squareContent"></h4>
-                </div>
-                <div class="square" value="6" style="border-top: none;
-                border-left: none;border-right: none;">
-                    <h4 class="squareContent"></h4>
-                </div>
-                <!-- ===Row3=== -->
-                <div class="square" value="7" style="border-top: none;
-                border-left: none;border-bottom: none;">
-                    <h4 class="squareContent"></h4>
-                </div>
-                <div class="square" value="8" style="border-top: none;
-                border-left: none;border-bottom: none;">
-                    <h4 class="squareContent"></h4>
-                </div>
-                <div class="square" value="9" style="border-top:none;
-                border-left: none;border-right: none;border-bottom: none;">
-                    <h4 class="squareContent"></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ================Resume================ -->
+                            <div class="accordion-item resumeSec">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <span class="accordIcon">
+                                            <i
+                                                class="fa-regular fa-address-card"></i>
+                                        </span>
+                                        <span class="accordText">
+                                            Resume
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="head">
+                                            <h2>resume</h2>
+                                            <h1>combination of skills</h1>
+                                            <h1>& experience</h1>
+                                        </div>
+                                        <div class="row">
+                                            <!-- ===========educationInfo====== -->
+                                            <section class="col-md-6 col-12">
+                                                <div class="educationInfo mb-5">
+                                                    <div class="titleSec mb-4">
+                                                        <div><span></span></div>
+                                                        <h2>Education</h2>
+                                                    </div>
+                                                    <div
+                                                        class="university w-100 d-flex align-items-center 
+                                                        justify-content-between flex-wrap">
+                                                        <div class="text">
+                                                            <h3>cognitive
+                                                                science</h3>
+                                                            <p>university of
+                                                                Mansourea</p>
+                                                        </div>
+                                                        <div class="date">
+                                                            <span>
+                                                                2018-2022
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit
+                                                        amet consectetur,
+                                                        adipisicing elit. In
+                                                        cupiditate ipsum
+                                                        doloribus ex, velit
+                                                        deserunt quis totam
+                                                        unde, ducimus eveniet
+                                                        tenetur, itaque suscipit
+                                                        tempora aliquid odit
+                                                        eaque. Eos, eum maxime.
+                                                    </p>
+                                                    <div
+                                                        class="university w-100 d-flex align-items-center 
+                                                    justify-content-between flex-wrap">
+                                                        <div class="text">
+                                                            <h3>cognitive
+                                                                science</h3>
+                                                            <p>university of
+                                                                Mansourea</p>
+                                                        </div>
+                                                        <div class="date">
+                                                            <span>
+                                                                2018-2022
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit
+                                                        amet consectetur,
+                                                        adipisicing elit. In
+                                                        cupiditate ipsum
+                                                        doloribus ex, velit
+                                                        deserunt quis totam
+                                                        unde, ducimus eveniet
+                                                        tenetur, itaque suscipit
+                                                        tempora aliquid odit
+                                                        eaque. Eos, eum maxime.
+                                                    </p>
+                                                </div>
+
+                                            </section>
+                                            <!-- ===========skillsInfo====== -->
+                                            <section class="col-md-6 col-12">
+                                                <div class="skillsInfo mb-5">
+                                                    <div class="titleSec mb-4">
+                                                        <div><span></span></div>
+                                                        <h2>personal skills</h2>
+                                                    </div>
+                                                    <div class="skillsRate">
+                                                        <h2>Time Management</h2>
+                                                        <div
+                                                            class="rate d-flex align-items-center justify-content-between">
+                                                            <div
+                                                                class="percentageTime"></div>
+                                                            <span>90%</span>
+                                                        </div>
+                                                        <div class="shape"></div>
+                                                    </div>
+                                                    <div class="skillsRate">
+                                                        <h2>Effeciency</h2>
+                                                        <div
+                                                            class="rate d-flex align-items-center justify-content-between">
+                                                            <div
+                                                                class="percentageEffeciency"></div>
+                                                            <span>75%</span>
+                                                        </div>
+                                                        <div class="shape"></div>
+                                                    </div>
+                                                    <div class="skillsRate">
+                                                        <h2>Intigrity</h2>
+
+                                                        <div
+                                                            class="rate d-flex align-items-center justify-content-between">
+                                                            <div
+                                                                class="percentageIntigrity"></div>
+                                                            <span>80%</span>
+                                                        </div>
+                                                        <div class="shape"></div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <!-- ==========experience====== -->
+                                            <section class="col-md-6 col-12">
+                                                <div class="experienceInfo mb-5">
+                                                    <div class="titleSec mb-4">
+                                                        <div><span></span></div>
+                                                        <h2>Experience</h2>
+                                                    </div>
+                                                    <div
+                                                        class="university w-100 d-flex align-items-center 
+                                                    justify-content-between flex-wrap">
+                                                        <div class="text">
+                                                            <h3>ui/ux desinger</h3>
+                                                            <p>university of
+                                                                Mansourea</p>
+                                                        </div>
+                                                        <div class="date">
+                                                            <span>
+                                                                2018-2022
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="university w-100 d-flex align-items-center 
+                                                justify-content-between flex-wrap">
+                                                        <div class="text">
+                                                            <h3>ui/ux desinger</h3>
+                                                            <p>university of
+                                                                Mansourea</p>
+                                                        </div>
+                                                        <div class="date">
+                                                            <span>
+                                                                2018-2022
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <!-- ==========softwareSkills====== -->
+                                            <section class="col-md-6 col-12">
+                                                <div
+                                                    class="softwareSkillsInfo mb-5">
+                                                    <div class="titleSec mb-4">
+                                                        <div><span></span></div>
+                                                        <h2>personal skills</h2>
+                                                    </div>
+                                                    <div class="skillsRate">
+                                                        <h2>Html</h2>
+                                                        <div
+                                                            class="rate d-flex align-items-center justify-content-between">
+                                                            <div
+                                                                class="html"></div>
+                                                            <span>90%</span>
+                                                        </div>
+                                                        <div class="shape"></div>
+                                                    </div>
+                                                    <div class="skillsRate">
+                                                        <h2>css</h2>
+                                                        <div
+                                                            class="rate d-flex align-items-center justify-content-between">
+                                                            <div
+                                                                class="css"></div>
+                                                            <span>75%</span>
+                                                        </div>
+                                                        <div class="shape"></div>
+                                                    </div>
+                                                    <div class="skillsRate">
+                                                        <h2>javascript</h2>
+                                                        <div
+                                                            class="rate d-flex align-items-center justify-content-between">
+                                                            <div
+                                                                class="js"></div>
+                                                            <span>70%</span>
+                                                        </div>
+                                                        <div class="shape"></div>
+                                                    </div>
+                                                    <div class="skillsRate">
+                                                        <h2>Bootstrap</h2>
+                                                        <div
+                                                            class="rate d-flex align-items-center justify-content-between">
+                                                            <div
+                                                                class="bootstrap"></div>
+                                                            <span>90%</span>
+                                                        </div>
+                                                        <div class="shape"></div>
+                                                    </div>
+                                                    <div class="skillsRate">
+                                                        <h2>reactjs</h2>
+                                                        <div
+                                                            class="rate d-flex align-items-center justify-content-between">
+                                                            <div
+                                                                class="react"></div>
+                                                            <span>70%</span>
+                                                        </div>
+                                                        <div class="shape"></div>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- =======================Potfolio====== -->
+                            <div class="accordion-item portfolioSec">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#protsolioSec"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span class="accordIcon">
+                                            <i
+                                                class="fa-regular fa-address-card"></i>
+                                        </span>
+                                        <span class="accordText">
+                                            portfolio
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div id="protsolioSec"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="head">
+                                            <h2>potfolio</h2>
+                                            <h1>my works that i did</h1>
+                                            <h1>for clients</h1>
+                                        </div>
+                                        <!-- ====================== -->
+                                        <nav>
+                                            <div class="nav nav-tabs"
+                                                id="nav-tab" role="tablist">
+                                                <button class="nav-link active"
+                                                    id="nav-home-tab"
+                                                    data-bs-toggle="tab"
+                                                    data-bs-target="#all"
+                                                    type="button" role="tab"
+                                                    aria-controls="nav-home"
+                                                    aria-selected="true">All</button>
+                                                <button class="nav-link"
+                                                    id="nav-profile-tab"
+                                                    data-bs-toggle="tab"
+                                                    data-bs-target="#popular"
+                                                    type="button" role="tab"
+                                                    aria-controls="nav-profile"
+                                                    aria-selected="false">Popular</button>
+                                                <button class="nav-link"
+                                                    id="nav-contact-tab"
+                                                    data-bs-toggle="tab"
+                                                    data-bs-target="#latest"
+                                                    type="button" role="tab"
+                                                    aria-controls="nav-contact"
+                                                    aria-selected="false">Latest</button>
+                                            </div>
+                                        </nav>
+                                        <!-- ================ All-->
+                                        <div class="tab-content"
+                                            id="nav-tabContent">
+                                            <div
+                                                class="tab-pane fade show active"
+                                                id="all" role="tabpanel"
+                                                aria-labelledby="nav-home-tab"
+                                                tabindex="0">
+
+                                                <div
+                                                    class="allSec row align-items-center">
+                                                    <div
+                                                        class="col-lg-4 col-md-6 col-12">
+                                                        <div class="theImg">
+                                                            <img
+                                                                src="images/portfolio/1.jpg"
+                                                                alt>
+                                                            <div class="live">
+                                                                <span
+                                                                    class="icon">
+                                                                    <i
+                                                                        class="fa-solid fa-earth-americas"></i>
+                                                                </span>
+                                                                <h3>Minimal
+                                                                    Design</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-lg-4 col-md-6 col-12">
+                                                        <div class="theImg">
+                                                            <img
+                                                                src="images/portfolio/2.jpg"
+                                                                alt>
+                                                            <div class="live">
+                                                                <span
+                                                                    class="icon">
+                                                                    <i
+                                                                        class="fa-solid fa-earth-americas"></i>
+                                                                </span>
+                                                                <h3>Minimal
+                                                                    Design</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-lg-4 col-md-6 col-12">
+                                                        <div class="theImg">
+                                                            <img
+                                                                src="images/portfolio/3.jpg"
+                                                                alt>
+                                                            <div class="live">
+                                                                <span
+                                                                    class="icon">
+                                                                    <i
+                                                                        class="fa-solid fa-earth-americas"></i>
+                                                                </span>
+                                                                <h3>Minimal
+                                                                    Design</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-lg-4 col-md-6 col-12">
+                                                        <div class="theImg">
+                                                            <img
+                                                                src="images/portfolio/4.jpg"
+                                                                alt>
+                                                            <div class="live">
+                                                                <span
+                                                                    class="icon">
+                                                                    <i
+                                                                        class="fa-solid fa-earth-americas"></i>
+                                                                </span>
+                                                                <h3>Minimal
+                                                                    Design</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-lg-4 col-md-6 col-12">
+                                                        <div class="theImg">
+                                                            <img
+                                                                src="images/portfolio/5.jpg"
+                                                                alt>
+                                                            <div class="live">
+                                                                <span
+                                                                    class="icon">
+                                                                    <i
+                                                                        class="fa-solid fa-earth-americas"></i>
+                                                                </span>
+                                                                <h3>Minimal
+                                                                    Design</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-lg-4 col-md-6 col-12">
+                                                        <div class="theImg">
+                                                            <img
+                                                                src="images/portfolio/6.jpg"
+                                                                alt>
+                                                            <div class="live">
+                                                                <span
+                                                                    class="icon">
+                                                                    <i
+                                                                        class="fa-solid fa-earth-americas"></i>
+                                                                </span>
+                                                                <h3>Minimal
+                                                                    Design</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- ================Popular -->
+
+                                            <div class="tab-pane fade"
+                                                id="popular" role="tabpanel"
+                                                aria-labelledby="nav-profile-tab"
+                                                tabindex="0">
+                                                <div
+                                                    class="popularSec row align-items-center">
+                                                    <div
+                                                        class="col-lg-4 col-md-6 col-12">
+                                                        <div class="theImg">
+                                                            <img
+                                                                src="images/portfolio/1.jpg"
+                                                                alt>
+                                                            <div class="live">
+                                                                <span
+                                                                    class="icon">
+                                                                    <i
+                                                                        class="fa-solid fa-earth-americas"></i>
+                                                                </span>
+                                                                <h3>Minimal
+                                                                    Design</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-lg-4 col-md-6 col-12">
+                                                        <div class="theImg">
+                                                            <img
+                                                                src="images/portfolio/2.jpg"
+                                                                alt>
+                                                            <div class="live">
+                                                                <span
+                                                                    class="icon">
+                                                                    <i
+                                                                        class="fa-solid fa-earth-americas"></i>
+                                                                </span>
+                                                                <h3>Minimal
+                                                                    Design</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-lg-4 col-md-6 col-12">
+                                                        <div class="theImg">
+                                                            <img
+                                                                src="images/portfolio/3.jpg"
+                                                                alt>
+                                                            <div class="live">
+                                                                <span
+                                                                    class="icon">
+                                                                    <i
+                                                                        class="fa-solid fa-earth-americas"></i>
+                                                                </span>
+                                                                <h3>Minimal
+                                                                    Design</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- ================Latest -->
+
+                                            <div class="tab-pane fade"
+                                                id="latest" role="tabpanel"
+                                                aria-labelledby="nav-contact-tab"
+                                                tabindex="0">
+                                                <div
+                                                    class="latestSec row align-items-center">
+                                                    <div
+                                                        class="col-lg-4 col-md-6 col-12">
+                                                        <div class="theImg">
+                                                            <img
+                                                                src="images/portfolio/4.jpg"
+                                                                alt>
+                                                            <div class="live">
+                                                                <span
+                                                                    class="icon">
+                                                                    <i
+                                                                        class="fa-solid fa-earth-americas"></i>
+                                                                </span>
+                                                                <h3>Minimal
+                                                                    Design</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-lg-4 col-md-6 col-12">
+                                                        <div class="theImg">
+                                                            <img
+                                                                src="images/portfolio/5.jpg"
+                                                                alt>
+                                                            <div class="live">
+                                                                <span
+                                                                    class="icon">
+                                                                    <i
+                                                                        class="fa-solid fa-earth-americas"></i>
+                                                                </span>
+                                                                <h3>Minimal
+                                                                    Design</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-lg-4 col-md-6 col-12">
+                                                        <div class="theImg">
+                                                            <img
+                                                                src="images/portfolio/6.jpg"
+                                                                alt>
+                                                            <div class="live">
+                                                                <span
+                                                                    class="icon">
+                                                                    <i
+                                                                        class="fa-solid fa-earth-americas"></i>
+                                                                </span>
+                                                                <h3>Minimal
+                                                                    Design</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- ====================== -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ======================= -->
+                            <div class="accordion-item servicesSec">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#servicesSec"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span class="accordIcon">
+                                            <i
+                                                class="fa-regular fa-address-card"></i>
+                                        </span>
+                                        <span class="accordText">
+                                            services
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div id="servicesSec"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="head">
+                                            <h2>service</h2>
+                                            <h1>never comproise</h1>
+                                            <h1>with quality</h1>
+                                        </div>
+                                        <div class="row align-items-center">
+                                            <div
+                                                class="col-lg-4 col-md-6 col-12">
+                                                <div class="servBox">
+                                                    <span class="icon">
+                                                        <img
+                                                            src="images/services-img/2.svg"
+                                                            alt>
+                                                    </span>
+                                                    <h2>App Development</h2>
+                                                    <p>web development is the
+                                                        building and mentainence
+                                                        of website.
+                                                        its the work that
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="col-lg-4 col-md-6 col-12">
+                                                <div class="servBox">
+                                                    <span class="icon">
+                                                        <img
+                                                            src="images/services-img/3.svg"
+                                                            alt>
+                                                    </span>
+                                                    <h2>web Development</h2>
+                                                    <p>web development is the
+                                                        building and mentainence
+                                                        of website.
+                                                        its the work that
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="col-lg-4 col-md-6 col-12">
+                                                <div class="servBox">
+                                                    <span class="icon">
+                                                        <img
+                                                            src="images/services-img/1.svg"
+                                                            alt>
+                                                    </span>
+                                                    <h2>Ui / Ux Design</h2>
+                                                    <p>web development is the
+                                                        building and mentainence
+                                                        of website.
+                                                        its the work that
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="col-lg-4 col-md-6 col-12">
+                                                <div class="servBox">
+                                                    <span class="icon">
+                                                        <img
+                                                            src="images/services-img/4.svg"
+                                                            alt>
+                                                    </span>
+                                                    <h2>graphic Design</h2>
+                                                    <p>web development is the
+                                                        building and mentainence
+                                                        of website.
+                                                        its the work that
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="col-lg-4 col-md-6 col-12">
+                                                <div class="servBox">
+                                                    <span class="icon">
+                                                        <img
+                                                            src="images/services-img/5.svg"
+                                                            alt>
+                                                    </span>
+                                                    <h2>cmc Design</h2>
+                                                    <p>web development is the
+                                                        building and mentainence
+                                                        of website.
+                                                        its the work that
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="col-lg-4 col-md-6 col-12">
+                                                <div class="servBox">
+                                                    <span class="icon">
+                                                        <img
+                                                            src="images/services-img/6.svg"
+                                                            alt>
+                                                    </span>
+                                                    <h2>saas product</h2>
+                                                    <p>web development is the
+                                                        building and mentainence
+                                                        of website.
+                                                        its the work that
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ======================= -->
+                            <div class="accordion-item testimonialSec">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#testimonialSec"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span class="accordIcon">
+                                            <i
+                                                class="fa-regular fa-address-card"></i>
+                                        </span>
+                                        <span class="accordText">
+                                            Testimonial
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div id="testimonialSec"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="head">
+                                            <h2>testimonial</h2>
+                                            <h1>what people say</h1>
+                                            <h1>about me</h1>
+                                        </div>
+                                        <div id="carouselExampleIndicators"
+                                            class="carousel slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button"
+                                                    data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="0"
+                                                    class="active"
+                                                    aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                <button type="button"
+                                                    data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="1"
+                                                    aria-label="Slide 2"></button>
+                                                <button type="button"
+                                                    data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="2"
+                                                    aria-label="Slide 3"></button>
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active my-5">
+                                                    <div class="row align-items-center justify-content-center">
+                                                        <div class="leftSide col-lg-4 col-12">
+                                                           <div>
+                                                            <div class="theImg">
+                                                                <img src="images/testimonial/1.jpg" alt="sorry">
+                                                            </div>
+                                                            <h4>Ahmed Mohamed</h4>
+                                                            <p>fontend developer</p>
+                                                           </div>
+                                                        </div>
+                                                        <div class="rightSide col-lg-4 col-12">
+                                                            <p class="paragraph">
+                                                                not only was customer support very fast,
+                                                                but the design is very professional .will 
+                                                                definitely be looking for new products in the
+                                                                furture from this author.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item my-5">
+                                                    <div class="row align-items-center justify-content-center">
+                                                        <div class="leftSide col-lg-4 col-12">
+                                                            <div>
+                                                                <div class="theImg">
+                                                                    <img src="images/testimonial/2.jpg" alt="sorry">
+                                                                </div>
+                                                                <h4>Adham Mohamed</h4>
+                                                                <p>Backend developer</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="rightSide col-lg-4 col-12">
+                                                            <p class="paragraph">
+                                                                not only was customer support very fast,
+                                                                but the design is very professional .will 
+                                                                definitely be looking for new products in the
+                                                                furture from this author.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item my-5">
+                                                    <div class="row align-items-center justify-content-center">
+                                                        <div class="leftSide col-lg-4 col-12">
+                                                           <div>
+                                                                <div class="theImg">
+                                                                    <img src="images/testimonial/3.jpg" alt="sorry">
+                                                                </div>
+                                                                <h4>Emad Mohamed</h4>
+                                                                <p>fontend developer</p>
+                                                           </div>
+                                                        </div>
+                                                        <div class="rightSide col-lg-4 col-12">
+                                                            <p class="paragraph">
+                                                                not only was customer support very fast,
+                                                                but the design is very professional .will 
+                                                                definitely be looking for new products in the
+                                                                furture from this author.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                            <button
+                                                class="carousel-control-prev"
+                                                type="button"
+                                                data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide="prev">
+                                                <span
+                                                    class="carousel-control-prev-icon"
+                                                    aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button
+                                                class="carousel-control-next"
+                                                type="button"
+                                                data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide="next">
+                                                <span
+                                                    class="carousel-control-next-icon"
+                                                    aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ======================= -->
+                            <div class="accordion-item blogSec">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#blogSec"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span class="accordIcon">
+                                            <i
+                                                class="fa-regular fa-address-card"></i>
+                                        </span>
+                                        <span class="accordText">
+                                            Blog
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div id="blogSec"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="head">
+                                            <h2>blog</h2>
+                                            <h1>latest tips,tricks & </h1>
+                                            <h1>Update</h1>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-6 col-12">
+                                                <div class="boxBlog">
+                                                    <div class="theImg">
+                                                        <img src="images/blog/1.jpg" alt="sorry">
+                                                    </div>
+                                                    <h4>Branding</h4>
+                                                    <p>how to create a website using wordpress</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 col-12">
+                                                <div class="boxBlog">
+                                                    <div class="theImg">
+                                                        <img src="images/blog/2.jpg" alt="sorry">
+                                                    </div>
+                                                    <h4>Ui design</h4>
+                                                    <p>how to create a website using wordpress</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 col-12">
+                                                <div class="boxBlog">
+                                                    <div class="theImg">
+                                                        <img src="images/blog/3.jpg" alt="sorry">
+                                                    </div>
+                                                    <h4>Branding</h4>
+                                                    <p>how to create a website using wordpress</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ======================= -->
+                            <div class="accordion-item contactSec">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#contactSec"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span class="accordIcon">
+                                            <i
+                                                class="fa-regular fa-address-card"></i>
+                                        </span>
+                                        <span class="accordText">
+                                           Contact
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div id="contactSec"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="head">
+                                            <h2>hire me</h2>
+                                            <h1>contact me to get</h1>
+                                            <h1>your work done</h1>
+                                        </div>
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-5 col-md-6 col-12">
+                                                <div class="leftContact">
+                                                    <div class="info">
+                                                        <div class="icon">
+                                                            <img src="images/contact/call.svg" alt="">
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>call me</h3>
+                                                            <p>201208448553</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="icon">
+                                                            <img src="images/contact/emai.svg" alt="">
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>email</h3>
+                                                            <p>ahmedelabrass2030 @gmail.com</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="icon">
+                                                            <img src="images/contact/map.svg" alt="">
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3>Address</h3>
+                                                            <p>Elshami Street</p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-7 col-md-6 col-12">
+                                                <div class="rightContact">
+                                                        <div class="name-email">
+                                                            <input type="text" placeholder="Your Name">
+                                                            <input type="email" placeholder="Your Email">
+                                                        </div>
+                                                        <div class="phone-subject">
+                                                            <input type="text" placeholder="Your phone">
+                                                            <input type="text" placeholder="Your Ssubject">
+                                                        </div>
+                                                        <textarea placeholder="your message here"></textarea>
+                                                        <a href="#" class="cvBtn">submit now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- =======end Shape====== -->
-            <!-- ==Btn reset======= -->
-            <div class="theBtn">
-                <button class="resetBtn text-white fs-4" 
-                id="resetBtn">Reset</button>
-            </div>
-            <!-- ==Btn reset======= -->
-        </div>
-    </main>
+        </section>
 
-    <script src="js/all.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
+        <script src="js/all.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 
 </html>
